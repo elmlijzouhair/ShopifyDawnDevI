@@ -36,7 +36,7 @@
         "button"
       ],
       "settings": {
-        "image_2": "shopify://shop_images/I.jpg",
+        "image": "shopify://shop_images/I.jpg",
         "image_overlay_opacity": 20,
         "image_height": "large",
         "image_behavior": "none",
@@ -77,7 +77,7 @@
       ],
       "settings": {
         "image": "shopify://shop_images/IV.jpg",
-        "image_overlay_opacity": 0,
+        "image_overlay_opacity": 20,
         "image_height": "large",
         "image_behavior": "none",
         "desktop_content_position": "bottom-center",
@@ -116,8 +116,8 @@
         "buttons_cX6AzX"
       ],
       "settings": {
-        "image": "shopify://shop_images/IV.jpg",
-        "image_overlay_opacity": 0,
+        "image": "shopify://shop_images/jeune-homme-vetu-vetements-sport_273609-16059.jpg",
+        "image_overlay_opacity": 20,
         "image_height": "large",
         "image_behavior": "none",
         "desktop_content_position": "bottom-center",
@@ -127,6 +127,144 @@
         "stack_images_on_mobile": false,
         "mobile_content_alignment": "center",
         "show_text_below": false
+      }
+    },
+    "multirow_Xz8Td7": {
+      "type": "multirow",
+      "blocks": {
+        "row_qVXFV3": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/II.jpg",
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "row_AiDqpY": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/I.jpg",
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_qVXFV3",
+        "row_AiDqpY"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "image_layout": "alternate-left",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multirow_tLhF3D": {
+      "type": "multirow",
+      "blocks": {
+        "row_xrP8DG": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/IV.jpg",
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "row_cyAxEk": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/VI.jpg",
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_xrP8DG",
+        "row_cyAxEk"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "image_layout": "alternate-left",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multirow_WJwdLR": {
+      "type": "multirow",
+      "blocks": {
+        "row_HUB3B9": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/III_8c41f1d2-f372-4543-bff9-7f111e125796.jpg",
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "row_8NKL3K": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/II_7cab9349-6ad4-44c4-a1aa-067e15fd3c0f.jpg",
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_HUB3B9",
+        "row_8NKL3K"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "image_layout": "alternate-left",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "featured_collection": {
@@ -162,6 +300,9 @@
     "image_banner",
     "image_banner_Pp9GFy",
     "image_banner_zVPrKh",
+    "multirow_Xz8Td7",
+    "multirow_tLhF3D",
+    "multirow_WJwdLR",
     "featured_collection"
   ]
 }
