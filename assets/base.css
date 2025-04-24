@@ -9,7 +9,7 @@
 
   --color-primary: 0, 0, 0; /* Black */
   --color-secondary: 210, 180, 140; /* Tan */
-  --color-accent: 218, 165, 32; /* GoldenRod */
+  --color-accent: 255, 255, 255; /* White */
   --font-body-family: 'Cormorant Garamond', serif;
   --font-heading-family: 'Playfair Display', serif;
 }
