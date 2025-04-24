@@ -15,8 +15,8 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "",
-            "heading_size": "h1"
+            "heading": "Premium Men's Long Sleeve Shirts at no Prices.",
+            "heading_size": "h2"
           }
         },
         "button": {
@@ -43,7 +43,7 @@
         "desktop_content_position": "bottom-center",
         "desktop_content_alignment": "center",
         "show_text_box": false,
-        "color_scheme": "scheme-3",
+        "color_scheme": "scheme-2",
         "stack_images_on_mobile": false,
         "mobile_content_alignment": "center",
         "show_text_below": false
@@ -55,8 +55,8 @@
         "heading_FHfqdQ": {
           "type": "heading",
           "settings": {
-            "heading": "Quality and artisanal skills shape our identity.",
-            "heading_size": "h1"
+            "heading": "Men's Underclothing Top",
+            "heading_size": "h2"
           }
         },
         "buttons_EygDMH": {
@@ -89,14 +89,54 @@
         "show_text_below": false
       }
     },
+    "image_banner_ynTN6p": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_krnpPa": {
+          "type": "heading",
+          "settings": {
+            "heading": "Quality and artisanal skills shape our identity.",
+            "heading_size": "h2"
+          }
+        },
+        "buttons_M7ikBi": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop all",
+            "button_link_1": "shopify://collections/leather-mar",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_krnpPa",
+        "buttons_M7ikBi"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/V.png",
+        "image_overlay_opacity": 0,
+        "image_height": "large",
+        "image_behavior": "none",
+        "desktop_content_position": "bottom-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": false,
+        "color_scheme": "scheme-3",
+        "stack_images_on_mobile": false,
+        "mobile_content_alignment": "center",
+        "show_text_below": false
+      }
+    },
     "image_banner_zVPrKh": {
       "type": "image-banner",
       "blocks": {
         "heading_C3nFgq": {
           "type": "heading",
           "settings": {
-            "heading": "Quality and artisanal skills shape our identity.",
-            "heading_size": "h1"
+            "heading": "Men's Long Sleeve Shirts",
+            "heading_size": "h2"
           }
         },
         "buttons_cX6AzX": {
@@ -116,7 +156,90 @@
         "buttons_cX6AzX"
       ],
       "settings": {
-        "image": "shopify://shop_images/jeune-homme-vetu-vetements-sport_273609-16059.jpg",
+        "image": "shopify://shop_images/III.jpg",
+        "image_2": "shopify://shop_images/III.png",
+        "image_overlay_opacity": 0,
+        "image_height": "large",
+        "image_behavior": "none",
+        "desktop_content_position": "bottom-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": false,
+        "color_scheme": "scheme-3",
+        "stack_images_on_mobile": false,
+        "mobile_content_alignment": "center",
+        "show_text_below": false
+      }
+    },
+    "image_banner_eQwTnG": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_brmxJW": {
+          "type": "heading",
+          "settings": {
+            "heading": "Premium Men's Tanktop",
+            "heading_size": "h2"
+          }
+        },
+        "buttons_V3BBK7": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop all",
+            "button_link_1": "shopify://collections/leather-mar",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_brmxJW",
+        "buttons_V3BBK7"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/XI.png",
+        "image_2": "shopify://shop_images/XII.png",
+        "image_overlay_opacity": 0,
+        "image_height": "large",
+        "image_behavior": "none",
+        "desktop_content_position": "bottom-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": false,
+        "color_scheme": "scheme-3",
+        "stack_images_on_mobile": false,
+        "mobile_content_alignment": "center",
+        "show_text_below": false
+      }
+    },
+    "image_banner_fmaFA7": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_HwBe7b": {
+          "type": "heading",
+          "settings": {
+            "heading": "Premium Men's Tanktop",
+            "heading_size": "h2"
+          }
+        },
+        "buttons_Q4M8nM": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop all",
+            "button_link_1": "shopify://collections/leather-mar",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_HwBe7b",
+        "buttons_Q4M8nM"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/V.png",
+        "image_2": "shopify://shop_images/VII.png",
         "image_overlay_opacity": 0,
         "image_height": "large",
         "image_behavior": "none",
@@ -146,7 +269,7 @@
         "row_AiDqpY": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/I.jpg",
+            "image": "shopify://shop_images/IV.png",
             "caption": "Caption",
             "heading": "Row",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
@@ -181,7 +304,7 @@
         "row_xrP8DG": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/IV.jpg",
+            "image": "shopify://shop_images/XII.png",
             "caption": "Caption",
             "heading": "Row",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
@@ -192,7 +315,7 @@
         "row_cyAxEk": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/VI.jpg",
+            "image": "shopify://shop_images/about1.webp",
             "caption": "Caption",
             "heading": "Row",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
@@ -221,57 +344,11 @@
         "padding_bottom": 36
       }
     },
-    "multirow_WJwdLR": {
-      "type": "multirow",
-      "blocks": {
-        "row_HUB3B9": {
-          "type": "row",
-          "settings": {
-            "image": "shopify://shop_images/III_8c41f1d2-f372-4543-bff9-7f111e125796.jpg",
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        },
-        "row_8NKL3K": {
-          "type": "row",
-          "settings": {
-            "image": "shopify://shop_images/II_7cab9349-6ad4-44c4-a1aa-067e15fd3c0f.jpg",
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "row_HUB3B9",
-        "row_8NKL3K"
-      ],
-      "settings": {
-        "image_height": "medium",
-        "desktop_image_width": "medium",
-        "image_layout": "alternate-left",
-        "heading_size": "h1",
-        "text_style": "body",
-        "button_style": "secondary",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "mobile_content_alignment": "left",
-        "section_color_scheme": "scheme-2",
-        "row_color_scheme": "scheme-2",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
         "collection": "all",
-        "products_to_show": 8,
+        "products_to_show": 10,
         "title": "Elevate Your Style with Luxurious Leather Goods.",
         "heading_size": "h2",
         "description": "",
@@ -294,15 +371,66 @@
         "padding_top": 44,
         "padding_bottom": 36
       }
+    },
+    "image_with_text_9cimky": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_cnUD7g": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "text_K4riwj": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_9L7Cff": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_cnUD7g",
+        "text_K4riwj",
+        "button_9L7Cff"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/VII.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "mobile_content_alignment": "center",
+        "section_color_scheme": "scheme-2",
+        "color_scheme": "scheme-2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "image_banner",
     "image_banner_Pp9GFy",
+    "image_banner_ynTN6p",
     "image_banner_zVPrKh",
+    "image_banner_eQwTnG",
+    "image_banner_fmaFA7",
     "multirow_Xz8Td7",
     "multirow_tLhF3D",
-    "multirow_WJwdLR",
-    "featured_collection"
+    "featured_collection",
+    "image_with_text_9cimky"
   ]
 }
