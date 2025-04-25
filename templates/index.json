@@ -259,9 +259,9 @@
           "type": "row",
           "settings": {
             "image": "shopify://shop_images/II.jpg",
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "caption": "Long Sleeve Shirt",
+            "heading": "Long Sleeve Shirts: Comfort Guaranteed",
+            "text": "<p>This shirt prioritizes men's underwear comfort, featuring a sleek fit and full coverage. Crafted from premium materials, it guarantees long-lasting wear.</p>",
             "button_label": "View more",
             "button_link": "shopify://products/long-sleeve"
           }
@@ -270,9 +270,9 @@
           "type": "row",
           "settings": {
             "image": "shopify://shop_images/IV.png",
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "caption": "Tank top",
+            "heading": "Upgrade to Premium Comfort and Style",
+            "text": "<p>Experience Comfort and Style in Every Outfit with Our Premium Men's Tank Top. Discover the perfect blend of comfort and style with our premium men's tank top, a must-have for your wardrobe.</p>",
             "button_label": "View more",
             "button_link": "shopify://products/leather-big-bag"
           }
@@ -305,28 +305,16 @@
           "type": "row",
           "settings": {
             "image": "shopify://shop_images/XII.png",
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "caption": "T-shirt",
+            "heading": "Experience Ultimate Comfort and Style",
+            "text": "<p>Maximize Comfort and Style in Any Occasion with Our Superior Material Men's T-shirt. Experience unparalleled comfort and timeless style with our high-quality men's t-shirt crafted from superior materials.</p>",
             "button_label": "View more",
             "button_link": "shopify://products/t-shirt"
-          }
-        },
-        "row_cyAxEk": {
-          "type": "row",
-          "settings": {
-            "image": "shopify://shop_images/about1.webp",
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "button_label": "View more",
-            "button_link": ""
           }
         }
       },
       "block_order": [
-        "row_xrP8DG",
-        "row_cyAxEk"
+        "row_xrP8DG"
       ],
       "settings": {
         "image_height": "medium",
@@ -378,22 +366,22 @@
         "heading_cnUD7g": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
-            "heading_size": "h1"
+            "heading": "Detailed Exposition of Men's Fashion.",
+            "heading_size": "h2"
           }
         },
         "text_K4riwj": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text": "<p>Precise and factual description of a high-end men's fashion brand offering tank tops, t-shirts, long sleeve shirts, and boxers</p>",
             "text_style": "body"
           }
         },
         "button_9L7Cff": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "",
+            "button_label": "Our History",
+            "button_link": "shopify://pages/about-us",
             "button_style_secondary": false
           }
         }
