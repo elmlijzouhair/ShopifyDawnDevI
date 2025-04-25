@@ -9,6 +9,46 @@
  */
 {
   "sections": {
+    "image_banner_ynTN6p": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_krnpPa": {
+          "type": "heading",
+          "settings": {
+            "heading": "Quality and artisanal skills shape our identity.",
+            "heading_size": "h2"
+          }
+        },
+        "buttons_M7ikBi": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop all",
+            "button_link_1": "shopify://products/tank-top",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_krnpPa",
+        "buttons_M7ikBi"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/V.png",
+        "image_overlay_opacity": 0,
+        "image_height": "large",
+        "image_behavior": "none",
+        "desktop_content_position": "bottom-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": false,
+        "color_scheme": "scheme-3",
+        "stack_images_on_mobile": false,
+        "mobile_content_alignment": "center",
+        "show_text_below": false
+      }
+    },
     "image_banner_Pp9GFy": {
       "type": "image-banner",
       "blocks": {
@@ -84,46 +124,6 @@
         "desktop_content_alignment": "center",
         "show_text_box": false,
         "color_scheme": "scheme-2",
-        "stack_images_on_mobile": false,
-        "mobile_content_alignment": "center",
-        "show_text_below": false
-      }
-    },
-    "image_banner_ynTN6p": {
-      "type": "image-banner",
-      "blocks": {
-        "heading_krnpPa": {
-          "type": "heading",
-          "settings": {
-            "heading": "Quality and artisanal skills shape our identity.",
-            "heading_size": "h2"
-          }
-        },
-        "buttons_M7ikBi": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify://collections/leather-mar",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_krnpPa",
-        "buttons_M7ikBi"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/V.png",
-        "image_overlay_opacity": 0,
-        "image_height": "large",
-        "image_behavior": "none",
-        "desktop_content_position": "bottom-center",
-        "desktop_content_alignment": "center",
-        "show_text_box": false,
-        "color_scheme": "scheme-3",
         "stack_images_on_mobile": false,
         "mobile_content_alignment": "center",
         "show_text_below": false
@@ -410,9 +410,9 @@
     }
   },
   "order": [
+    "image_banner_ynTN6p",
     "image_banner_Pp9GFy",
     "image_banner",
-    "image_banner_ynTN6p",
     "image_banner_zVPrKh",
     "image_banner_eQwTnG",
     "image_banner_fmaFA7",
