@@ -262,8 +262,8 @@
             "caption": "Caption",
             "heading": "Row",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "button_label": "Button label",
-            "button_link": ""
+            "button_label": "View more",
+            "button_link": "shopify://products/long-sleeve"
           }
         },
         "row_AiDqpY": {
@@ -273,8 +273,8 @@
             "caption": "Caption",
             "heading": "Row",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "button_label": "Button label",
-            "button_link": ""
+            "button_label": "View more",
+            "button_link": "shopify://products/leather-big-bag"
           }
         }
       },
@@ -308,8 +308,8 @@
             "caption": "Caption",
             "heading": "Row",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "button_label": "Button label",
-            "button_link": ""
+            "button_label": "View more",
+            "button_link": "shopify://products/t-shirt"
           }
         },
         "row_cyAxEk": {
@@ -319,7 +319,7 @@
             "caption": "Caption",
             "heading": "Row",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "button_label": "Button label",
+            "button_label": "View more",
             "button_link": ""
           }
         }
@@ -360,7 +360,7 @@
         "show_view_all": true,
         "view_all_style": "solid",
         "color_scheme": "scheme-2",
-        "image_ratio": "adapt",
+        "image_ratio": "square",
         "image_shape": "default",
         "show_secondary_image": true,
         "show_vendor": false,
