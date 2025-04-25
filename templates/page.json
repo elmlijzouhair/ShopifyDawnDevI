@@ -11,9 +11,7 @@
   "sections": {
     "main": {
       "type": "main-page",
-      "custom_css": [
-        "{--color-background: 255, 255, 255; --gradient-background: #f3f3f3; --color-foreground: 18, 18, 18; --color-background-contrast: 191, 191, 191; --color-shadow: 18, 18, 18; --color-button: 18, 18, 18; --color-button-text: 255, 255, 255; --color-secondary-button: 255, 255, 255; --color-secondary-button-text: 18, 18, 18; --color-link: 18, 18, 18; --color-badge-foreground: 18, 18, 18; --color-badge-background: 255, 255, 255; --color-badge-border: 18, 18, 18; --payment-terms-background-color: rgb(255 255 255);}"
-      ],
+      "custom_css": [],
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
