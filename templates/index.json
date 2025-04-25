@@ -63,7 +63,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop all",
-            "button_link_1": "shopify://collections/leather-mar",
+            "button_link_1": "shopify://products/tank-top",
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
@@ -103,7 +103,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop all",
-            "button_link_1": "shopify://collections/leather-mar",
+            "button_link_1": "shopify://products/long-sleeve",
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
