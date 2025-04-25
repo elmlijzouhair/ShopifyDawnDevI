@@ -406,5 +406,22 @@ p.announcement-bar__message.h5 {
     {%- if settings.cart_type == 'drawer' -%}
       <script src="{{ 'cart-drawer.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
+    {% if template == 'index' %}
+ 
+<style>
+.shopify-section-group-header-group.announcement-bar-section{
+height: 5px;
+}
+.header-wrapper{
+position: absolute;
+width: 100%;
+background: transparent;
+}
+.header-wrapper .header{
+margin-top: 20px;
+}
+</style>
+ 
+{% endif %}
   </body>
 </html>
