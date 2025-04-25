@@ -54,6 +54,7 @@
       {{ body_font_bold_italic | font_face: font_display: 'swap' }}
       {{ settings.type_header_font | font_face: font_display: 'swap' }}
 
+      {% assign scheme_classes = '' %}
       {% for scheme in settings.color_schemes -%}
         {% assign scheme_classes = scheme_classes | append: ', .color-' | append: scheme.id %}
         {% if forloop.index == 1 -%}
@@ -255,6 +256,20 @@
       }
     {% endstyle %}
 
+    <style>
+      .header-wrapper {
+        background-color: transparent;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 1000;
+      }
+      .header-wrapper.scrolled {
+        background-color: rgba(255, 255, 255, 0.9); /* Adjust as needed */
+        transition: background-color 0.3s ease;
+      }
+    </style>
+
     {{ 'base.css' | asset_url | stylesheet_tag }}
     <link rel="stylesheet" href="{{ 'component-cart-items.css' | asset_url }}" media="print" onload="this.media='all'">
 
@@ -363,6 +378,15 @@
         recipientFormCollapsed: `{{ 'recipient.form.collapsed' | t }}`,
         countrySelectorSearchCount: `{{ 'localization.country_results_count' | t: count: '[count]' }}`,
       };
+
+      document.addEventListener('scroll', function () {
+        const header = document.querySelector('.header-wrapper');
+        if (window.scrollY > 50) {
+          header.classList.add('scrolled');
+        } else {
+          header.classList.remove('scrolled');
+        }
+      });
     </script>
 
     {%- if settings.predictive_search_enabled -%}
