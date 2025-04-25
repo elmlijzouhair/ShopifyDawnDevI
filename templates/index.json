@@ -252,6 +252,46 @@
         "show_text_below": false
       }
     },
+    "collage_JLrWay": {
+      "type": "collage",
+      "blocks": {
+        "image_LJm3mn": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/XII.png"
+          }
+        },
+        "product_fcHUG3": {
+          "type": "product",
+          "settings": {
+            "product": "t-shirt",
+            "second_image": false
+          }
+        },
+        "collection_cNfeVJ": {
+          "type": "collection",
+          "settings": {
+            "collection": "packs"
+          }
+        }
+      },
+      "block_order": [
+        "image_LJm3mn",
+        "product_fcHUG3",
+        "collection_cNfeVJ"
+      ],
+      "name": "t:sections.collage.presets.name",
+      "settings": {
+        "heading": "Multimedia collage",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "column",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "multirow_Xz8Td7": {
       "type": "multirow",
       "blocks": {
@@ -416,6 +456,7 @@
     "image_banner_zVPrKh",
     "image_banner_eQwTnG",
     "image_banner_fmaFA7",
+    "collage_JLrWay",
     "multirow_Xz8Td7",
     "multirow_tLhF3D",
     "featured_collection",
