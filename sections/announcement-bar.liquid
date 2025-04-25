@@ -39,7 +39,7 @@
               class="announcement-bar__link link link--text focus-inset animate-arrow"
             >
           {%- endif -%}
-          <marquee behavior="scroll" direction="left" scrollamount="20"><p class="announcement-bar__message h5">
+          <marquee behavior="scroll" direction="left" scrollamount="10"><p class="announcement-bar__message h5">
             <span>{{ section.blocks.first.settings.text | escape }}</span>
             {%- if section.blocks.first.settings.link != blank -%}
               {{- 'icon-arrow.svg' | inline_asset_content -}}
