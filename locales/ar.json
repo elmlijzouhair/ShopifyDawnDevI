@@ -2521,6 +2521,150 @@
       "paypal": "باي بال",
       "storecredit": "رصيد المتجر",
       "bogus": "زائف"
+    },
+    "orders": {
+      "order_list": {
+        "carousel": {
+          "six_products_accessibility_label": "يتضمن الطلب الكمية {{lineItemName1}} {{lineItemQuantity1}} ، الكمية { {{lineItemName2}} { {{lineItemQuantity2}} ، الكمية { {{lineItemName3}} {{lineItemQuantity3}} ، الكمية { {{lineItemName4}} { {{lineItemQuantity4}} ، الكمية {{lineItemName5}} { {{lineItemQuantity5}} ، الكمية { {{lineItemName6}} {{lineItemQuantity6}}",
+          "six_and_more_products_accessibility_label": "يتضمن الطلب الكمية {{lineItemName1}} {{lineItemQuantity1}} ، الكمية { {{lineItemName2}} { {{lineItemQuantity2}} ، الكمية { {{lineItemName3}} { {{lineItemQuantity3}} ، الكمية { {{lineItemName4}} { {{lineItemQuantity4}} ، الكمية {{ {{lineItemName5}} {{lineItemQuantity5}} ، الكمية { {{lineItemName6}} {{lineItemQuantity6}} والمزيد",
+          "view_order_details": "عرض تفاصيل الطلب",
+          "previous": "سابق",
+          "next": "التالي"
+        },
+        "items": {
+          "one": "{{count}} عنصر",
+          "other": "{{count}} عناصر"
+        },
+        "list_view": "إظهار عرض القائمة",
+        "no_filtered_results_description": "قم بإزالة أو تعديل المرشحات لرؤية طلباتك",
+        "no_filtered_results_title": "لا توجد نتائج مفلترة",
+        "order_link": "عرض الطلب {{name}}",
+        "order_number": "الطلب {{name}}",
+        "orders_title": "مؤكد",
+        "pagination": {
+          "nav_accessibility_label": "أزرار التنقل بين الطلبات",
+          "next": "التالي",
+          "next_accessibility_label": "الطلبات القادمة",
+          "previous": "السابق",
+          "previous_accessibility_label": "الطلبات السابقة",
+          "load_more": "تحميل المزيد",
+          "load_more_accessibility_label": "تحميل المزيد من الطلبات"
+        },
+        "order_status_message": {
+          "list_view": {
+            "view_order_for_details": "عرض الطلب للحصول على التفاصيل",
+            "estimated_delivery": "المتوقع {{date}}",
+            "last_updated": "آخر تحديث {{date}}"
+          },
+          "table_view": {
+            "estimated_delivery": "تاريخ التسليم المقدر {{date}}"
+          }
+        },
+        "payment_status": {
+          "list_view": {
+            "overdue": "الدفع متأخر",
+            "due": "تاريخ الدفع المستحق: {{date}}",
+            "due_today": "الدفع المستحق اليوم",
+            "due_without_date": "الدفع المستحق",
+            "due_on_fulfillment": "الدفع المستحق عند التنفيذ",
+            "pay_to_confirm": "ادفع للتأكيد",
+            "payment_not_due": "الدفع لم يستحق بعد"
+          },
+          "table_view": {
+            "overdue": "متأخر",
+            "due": "المستحق {{date}}",
+            "due_today": "المستحق اليوم",
+            "paid": "مدفوع",
+            "due_without_date": "حق",
+            "due_on_fulfillment": "مستحق عند الوفاء",
+            "pay_to_confirm": "ادفع للتأكيد",
+            "payment_not_due": "لم يحن موعده بعد"
+          }
+        },
+        "sort_by": "فرز حسب: {{option}}",
+        "sort_hide_options_accessibility_label": "إخفاء خيارات الفرز للطلبات المؤكدة.",
+        "sort_show_options_accessibility_label": "إظهار خيارات الفرز للطلبات المؤكدة.",
+        "sort_currently_sorted_by_accessibility_label": "تم الفرز حاليًا حسب: {{option}}",
+        "sort_title": "نوع",
+        "sort": {
+          "date": {
+            "newest": "من الأحدث إلى الأقدم",
+            "oldest": "من الأقدم إلى الأحدث"
+          },
+          "location": {
+            "ascending": "الموقع (AZ)",
+            "descending": "الموقع (جنوب أفريقيا)"
+          },
+          "order_number": {
+            "ascending": "رقم الطلب (من الأقل إلى الأعلى)",
+            "descending": "رقم الطلب (من الأعلى إلى الأدنى)"
+          },
+          "order_total": {
+            "ascending": "إجمالي الطلب (من الأقل إلى الأعلى)",
+            "descending": "إجمالي الطلب (من الأعلى إلى الأدنى)"
+          }
+        },
+        "filter_title": "فلتر",
+        "filter": {
+          "clear_section": "مسح القسم",
+          "clear_all": "مسح الكل",
+          "apply": "يتقدم",
+          "date": {
+            "start_date": "تاريخ البدء",
+            "end_date": "تاريخ الانتهاء",
+            "title": "تاريخ الطلب",
+            "today": "اليوم",
+            "last_7_days": "آخر 7 أيام",
+            "last_30_days": "آخر 30 يومًا",
+            "last_90_days": "آخر 90 يومًا",
+            "last_365_days": "آخر 12 شهرًا",
+            "custom": "مخصص"
+          }
+        },
+        "table_view": "إظهار عرض الجدول",
+        "show_order_actions_accessibility_label": "إظهار إجراءات الطلب للطلب {{name}}"
+      },
+      "order_status": {
+        "attempted_delivery_label": "محاولة التسليم",
+        "attempted_delivery_description": "محاولة التسليم لم تنجح.",
+        "attempted_to_deliver_label": "حاولت التسليم",
+        "confirmed_description": "لقد تلقينا طلبك.",
+        "on_its_way_description": "هذه الشحنة في طريقها.",
+        "out_for_delivery_description": "تم تسليم هذه الشحنة.",
+        "preparing_for_shipping_label": "الاستعداد للشحن",
+        "preparing_for_shipping_description": "يتم تجهيز هذه العناصر للشحن.",
+        "ready_for_pickup_label": "جاهز للاستلام",
+        "ready_for_pickup_description": "هذه المنتجات جاهزة للاستلام. يُرجى إحضار تأكيد طلبك عند استلامه.",
+        "ready_for_pickup_location": "طلبك جاهز للاستلام من الموقع",
+        "picked_up_label": "التقطت",
+        "picked_up_description": "لقد تم التقاط هذه العناصر.",
+        "canceled_description": "لقد تم إلغاء طلبك في {{date}} .",
+        "canceled_label": "تم الإلغاء",
+        "canceled_title": "لقد تم إلغاء طلبك",
+        "come_back": "ارجع إلى هذه الصفحة للحصول على تحديثات حول حالة شحنتك.",
+        "company_tracking_number": "رقم التتبع الخاص {{company}} :",
+        "confirmed_label": "مؤكد",
+        "confirmed_title": "تم تأكيد طلبك",
+        "confirmed_description_pickup": "سوف تتلقى رسالة بريد إلكتروني عندما يكون طلبك جاهزًا للاستلام.",
+        "confirmed_description_digital": "سوف تتلقى رسالة بريد إلكتروني عندما يكون طلبك جاهزًا.",
+        "confirmed_description_gift_card_text": "سوف تتلقى رسالة نصية عندما يصبح طلبك جاهزًا.",
+        "delivered_description": "لقد تم تسليم هذه الشحنة.",
+        "complete_label": "مكتمل",
+        "delivered_label": "تم التوصيل",
+        "delivered_title": "لقد تم تسليم شحنتك",
+        "delivered_description_digital": {
+          "one": "هذا العنصر كامل.",
+          "other": "هذه العناصر كاملة."
+        },
+        "delivered_description_gift_card": {
+          "one": "تم إرسال بطاقة الهدية عبر البريد الإلكتروني.",
+          "other": "تم إرسال بطاقات الهدايا عبر البريد الإلكتروني."
+        },
+        "delivered_description_gift_card_text": {
+          "one": "تم إرسال بطاقة الهدية برسالة نصية.",
+          "other": "تم إرسال بطاقات الهدايا عن طريق الرسائل النصية."
+        }
+      }
     }
   },
   "customer": {
