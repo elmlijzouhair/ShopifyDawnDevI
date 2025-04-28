@@ -884,7 +884,8 @@
         "components": {
           "close": "يغلق",
           "processing": "يعالج…",
-          "submit": "يُقدِّم"
+          "submit": "يُقدِّم",
+          "expand": "عرض المزيد"
         }
       },
       "processing": {
@@ -1651,7 +1652,8 @@
             "permission_not_allowed": "السماح بمشاركة موقعك.",
             "permission_denied": "لم نتمكن من تحديد موقعك. حاول مرة أخرى."
           }
-        }
+        },
+        "search_button": "يبحث"
       },
       "error_page": {
         "terminal": {
@@ -1758,6 +1760,11 @@
         },
         "return_to_store": "العودة إلى {{shopName}}",
         "return_to_store_simple": "العودة إلى المتجر"
+      },
+      "review": {
+        "blocks": {
+          "contact_method_title": "اتصال"
+        }
       }
     },
     "pagination": {
@@ -2081,7 +2088,9 @@
       },
       "not_found": "404 غير موجود",
       "challenge": "تحدي",
-      "checkpoint": "نقطة تفتيش"
+      "checkpoint": "نقطة تفتيش",
+      "search": "يبحث",
+      "collections": "المجموعات"
     },
     "cart": {
       "discounts_with_count": "تم تطبيق %{count} خصم"
@@ -2280,7 +2289,8 @@
         },
         "order_list_column_headers_location": "موقع",
         "order_list_column_headers_status": "حالة",
-        "removed_company_contact_tooltip": "تم إزالته من الشركة"
+        "removed_company_contact_tooltip": "تم إزالته من الشركة",
+        "order_list_column_headers_contact": "اتصال"
       }
     },
     "errors": {
@@ -2646,7 +2656,8 @@
         "learn_more": "يتعلم أكثر"
       },
       "taxes": "الضرائب",
-      "taxes_included": "بما في ذلك {{amount}} في الضرائب"
+      "taxes_included": "بما في ذلك {{amount}} في الضرائب",
+      "contact": "اتصال"
     },
     "payment_method_brands": {
       "visa": "فيزا",
@@ -2812,7 +2823,15 @@
           "one": "تم إرسال بطاقة الهدية برسالة نصية.",
           "other": "تم إرسال بطاقات الهدايا عن طريق الرسائل النصية."
         }
-      }
+      },
+      "list_title": "طلبات"
+    },
+    "navigation_and_structure": {
+      "orders_link_label": "طلبات",
+      "search": "يبحث"
+    },
+    "ui_components": {
+      "expandNotification": "عرض المزيد"
     }
   },
   "customer": {
@@ -2839,7 +2858,8 @@
       "total_duties": "الواجبات",
       "title": "الطلب {{ name }}",
       "date_html": "تم وضعه في {{ date }}",
-      "cancelled_html": "تم إلغاء الطلب في {{ date }}"
+      "cancelled_html": "تم إلغاء الطلب في {{ date }}",
+      "price": "سعر"
     },
     "orders": {
       "title": "سجل الطلبات",
@@ -3121,7 +3141,8 @@
     "update_language": "تحديث اللغة",
     "update_country": "تحديث البلد/المنطقة",
     "popular_countries_regions": "الدول/المناطق الشعبية",
-    "country_results_count": "تم العثور على {{ count }} دولة/منطقة"
+    "country_results_count": "تم العثور على {{ count }} دولة/منطقة",
+    "search": "يبحث"
   },
   "general": {
     "slider": {
@@ -3166,7 +3187,8 @@
       "previous": "الصفحة السابقة"
     },
     "search": {
-      "reset": "مسح مصطلح البحث"
+      "reset": "مسح مصطلح البحث",
+      "search": "يبحث"
     },
     "cart": {
       "view": "عرض عربة التسوق ( {{ count }} )",
@@ -3256,7 +3278,8 @@
         "product": "منتج",
         "total": "المجموع",
         "quantity": "كمية",
-        "image": "صورة المنتج"
+        "image": "صورة المنتج",
+        "price": "سعر"
       },
       "update": "تحديث",
       "login": {
