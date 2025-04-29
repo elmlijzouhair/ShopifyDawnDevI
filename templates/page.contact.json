@@ -18,6 +18,81 @@
         "padding_bottom": 36
       }
     },
+    "slideshow_WhjTjV": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_HJ3ELr": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/PackTshirtx3.jpg",
+            "image_overlay_opacity": 0,
+            "heading": "T-Shirt Pack",
+            "heading_size": "h1",
+            "subheading": "Discover our discount",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "show_text_box": true,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": ""
+          }
+        },
+        "slide_9Uwrf7": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Pack_TankTop_x3_1409904c-45d0-433c-a443-0d39292b0c1a.jpg",
+            "image_overlay_opacity": 0,
+            "heading": "Tank top Pack",
+            "heading_size": "h1",
+            "subheading": "Discover our discount",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "show_text_box": true,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": ""
+          }
+        },
+        "slide_JqXVMt": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/III.png",
+            "image_overlay_opacity": 0,
+            "heading": "Long Sleeve Shirt Pack",
+            "heading_size": "h1",
+            "subheading": "Discover our discount",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "show_text_box": true,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-2"
+          }
+        }
+      },
+      "block_order": [
+        "slide_HJ3ELr",
+        "slide_9Uwrf7",
+        "slide_JqXVMt"
+      ],
+      "name": "t:sections.slideshow.presets.name",
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "ambient",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
     "form": {
       "type": "contact-form",
       "settings": {
@@ -31,6 +106,7 @@
   },
   "order": [
     "main",
+    "slideshow_WhjTjV",
     "form"
   ]
 }
