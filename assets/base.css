@@ -34,6 +34,10 @@
   border-radius: 10px;
 }
 
+.btn--buy-on-whatsapp:hover {
+  min-width: calc(12rem + var(--buttons-border-width) * 2);
+  min-height: calc(4.5rem + var(--buttons-border-width) * 2);
+}
 
 .product-card-wrapper .card,
 .contains-card--product {
