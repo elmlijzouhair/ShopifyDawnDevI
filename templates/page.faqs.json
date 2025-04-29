@@ -22,7 +22,7 @@
       "type": "page",
       "name": "t:sections.page.presets.name",
       "settings": {
-        "page": "contact",
+        "page": "faqs",
         "heading_size": "h1",
         "color_scheme": "scheme-2",
         "padding_top": 36,
