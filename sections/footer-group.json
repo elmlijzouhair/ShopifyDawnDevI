@@ -11,11 +11,57 @@
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
-    "footer": {
-      "type": "footer",
+    "newsletter_BJ4UTw": {
+      "type": "newsletter",
+      "blocks": {
+        "heading_3HgjB4": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe to our emails",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph_kFGfTt": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new collections and exclusive offers.</p>"
+          }
+        },
+        "email_form_9UwK4F": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "heading_3HgjB4",
+        "paragraph_kFGfTt",
+        "email_form_9UwK4F"
+      ],
+      "name": "t:sections.newsletter.presets.name",
       "settings": {
         "color_scheme": "scheme-2",
-        "newsletter_enable": true,
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "link_list_Jprm9n": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Quick links",
+            "menu": "footer"
+          }
+        }
+      },
+      "block_order": [
+        "link_list_Jprm9n"
+      ],
+      "settings": {
+        "color_scheme": "scheme-2",
+        "newsletter_enable": false,
         "newsletter_heading": "Upgrade Your Basics with Luxurious and Durable Undergarments.",
         "enable_follow_on_shop": true,
         "show_social": true,
@@ -30,6 +76,7 @@
     }
   },
   "order": [
+    "newsletter_BJ4UTw",
     "footer"
   ]
 }
