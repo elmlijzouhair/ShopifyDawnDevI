@@ -45,6 +45,12 @@
             "show_gift_card_recipient": true
           }
         },
+        "custom_liquid_tC4RdU": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% capture product_url %}{{ shop.url }}{{ product.url }}{% endcapture %}\n{% capture product_name %}{{ product.title | url_escape }}{% endcapture %}\n<a href=\"https://wa.me/+212774544190?text=Hello, I%20would%20like%20to%20buy%20this%20product:%20{{ product_name }}%20{{ product_url }}\" class=\"btn btn--buy-on-whatsapp\" target=\"_blank\">Order on WhatsApp</a>"
+          }
+        },
         "description": {
           "type": "description",
           "settings": {}
@@ -57,6 +63,7 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "custom_liquid_tC4RdU",
         "description"
       ],
       "settings": {
