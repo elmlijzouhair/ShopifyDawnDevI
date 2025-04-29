@@ -11,6 +11,9 @@
   "sections": {
     "main": {
       "type": "main-list-collections",
+      "custom_css": [
+        ".gradient {background: rgb(var(--color-background)); background: #f3f3f3; background-attachment: fixed;}"
+      ],
       "settings": {
         "title": "Collections",
         "sort": "alphabetical",
