@@ -14,7 +14,7 @@
   --font-heading-family: 'Playfair Display', serif;
 }
 .btn--buy-on-whatsapp {
-  display: block;
+  display: inline-block;
   margin-top: 29px;
   padding: 11px 30px;
   font-size: 16px;
