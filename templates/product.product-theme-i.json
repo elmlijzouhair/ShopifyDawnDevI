@@ -38,22 +38,22 @@
           "type": "quantity_selector",
           "settings": {}
         },
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
+        "custom_liquid_tC4RdU": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% capture product_url %}{{ shop.url }}{{ product.url }}{% endcapture %}\n{% capture product_name %}{{ product.title | url_escape }}{% endcapture %}\n<a href=\"https://wa.me/212774544190?text={{ product_name }}%20{{ product_url }}\" class=\"btn btn--buy-on-whatsapp\" target=\"_blank\">Commander sur WhatsApp</a>"
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
             "show_dynamic_checkout": true,
             "show_gift_card_recipient": true
           }
-        },
-        "custom_liquid_tC4RdU": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "{% capture product_url %}{{ shop.url }}{{ product.url }}{% endcapture %}\n{% capture product_name %}{{ product.title | url_escape }}{% endcapture %}\n<a href=\"https://wa.me/212774544190?text={{ product_name }}%20{{ product_url }}\" class=\"btn btn--buy-on-whatsapp\" target=\"_blank\">Order on WhatsApp</a>"
-          }
-        },
-        "description": {
-          "type": "description",
-          "settings": {}
         }
       },
       "block_order": [
@@ -62,9 +62,9 @@
         "price",
         "variant_picker",
         "quantity_selector",
-        "buy_buttons",
+        "description",
         "custom_liquid_tC4RdU",
-        "description"
+        "buy_buttons"
       ],
       "settings": {
         "enable_sticky_info": true,
