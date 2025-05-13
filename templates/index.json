@@ -188,126 +188,6 @@
         "padding_bottom": 36
       }
     },
-    "image_banner_zVPrKh": {
-      "type": "image-banner",
-      "blocks": {
-        "heading_C3nFgq": {
-          "type": "heading",
-          "settings": {
-            "heading": "Men's Long Sleeve Shirts",
-            "heading_size": "h2"
-          }
-        },
-        "buttons_cX6AzX": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify://collections/long-sleeve-shirt",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_C3nFgq",
-        "buttons_cX6AzX"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/III.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "large",
-        "image_behavior": "none",
-        "desktop_content_position": "bottom-center",
-        "desktop_content_alignment": "center",
-        "show_text_box": false,
-        "color_scheme": "scheme-3",
-        "stack_images_on_mobile": false,
-        "mobile_content_alignment": "center",
-        "show_text_below": false
-      }
-    },
-    "image_banner_eQwTnG": {
-      "type": "image-banner",
-      "blocks": {
-        "heading_brmxJW": {
-          "type": "heading",
-          "settings": {
-            "heading": "Premium Men's T-shirt",
-            "heading_size": "h2"
-          }
-        },
-        "buttons_V3BBK7": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify://collections/t-shirt",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_brmxJW",
-        "buttons_V3BBK7"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/XI.png",
-        "image_2": "shopify://shop_images/XII.png",
-        "image_overlay_opacity": 0,
-        "image_height": "large",
-        "image_behavior": "none",
-        "desktop_content_position": "bottom-center",
-        "desktop_content_alignment": "center",
-        "show_text_box": false,
-        "color_scheme": "scheme-3",
-        "stack_images_on_mobile": false,
-        "mobile_content_alignment": "center",
-        "show_text_below": false
-      }
-    },
-    "image_banner_fmaFA7": {
-      "type": "image-banner",
-      "blocks": {
-        "heading_HwBe7b": {
-          "type": "heading",
-          "settings": {
-            "heading": "Premium Men's Tanktop",
-            "heading_size": "h2"
-          }
-        },
-        "buttons_Q4M8nM": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify://products/tank-top",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_HwBe7b",
-        "buttons_Q4M8nM"
-      ],
-      "settings": {
-        "image_overlay_opacity": 0,
-        "image_height": "large",
-        "image_behavior": "none",
-        "desktop_content_position": "bottom-center",
-        "desktop_content_alignment": "center",
-        "show_text_box": false,
-        "color_scheme": "scheme-3",
-        "stack_images_on_mobile": false,
-        "mobile_content_alignment": "center",
-        "show_text_below": false
-      }
-    },
     "collage_JLrWay": {
       "type": "collage",
       "blocks": {
@@ -348,84 +228,6 @@
         "padding_bottom": 36
       }
     },
-    "multirow_Xz8Td7": {
-      "type": "multirow",
-      "blocks": {
-        "row_qVXFV3": {
-          "type": "row",
-          "settings": {
-            "caption": "Long Sleeve Shirt",
-            "heading": "Long Sleeve Shirts: Comfort Guaranteed",
-            "text": "<p>This shirt prioritizes men's underwear comfort, featuring a sleek fit and full coverage. Crafted from premium materials, it guarantees long-lasting wear.</p>",
-            "button_label": "View more",
-            "button_link": "shopify://products/long-sleeve"
-          }
-        },
-        "row_AiDqpY": {
-          "type": "row",
-          "settings": {
-            "caption": "Tank top",
-            "heading": "Upgrade to Premium Comfort and Style",
-            "text": "<p>Experience Comfort and Style in Every Outfit with Our Premium Men's Tank Top. Discover the perfect blend of comfort and style with our premium men's tank top, a must-have for your wardrobe.</p>",
-            "button_label": "View more",
-            "button_link": "shopify://products/tank-top"
-          }
-        }
-      },
-      "block_order": [
-        "row_qVXFV3",
-        "row_AiDqpY"
-      ],
-      "settings": {
-        "image_height": "medium",
-        "desktop_image_width": "medium",
-        "image_layout": "alternate-left",
-        "heading_size": "h1",
-        "text_style": "body",
-        "button_style": "secondary",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "mobile_content_alignment": "left",
-        "section_color_scheme": "scheme-2",
-        "row_color_scheme": "scheme-2",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "multirow_tLhF3D": {
-      "type": "multirow",
-      "blocks": {
-        "row_xrP8DG": {
-          "type": "row",
-          "settings": {
-            "image": "shopify://shop_images/XII.png",
-            "caption": "T-shirt",
-            "heading": "Experience Ultimate Comfort and Style",
-            "text": "<p>Maximize Comfort and Style in Any Occasion with Our Superior Material Men's T-shirt. Experience unparalleled comfort and timeless style with our high-quality men's t-shirt crafted from superior materials.</p>",
-            "button_label": "View more",
-            "button_link": "shopify://products/t-shirt"
-          }
-        }
-      },
-      "block_order": [
-        "row_xrP8DG"
-      ],
-      "settings": {
-        "image_height": "medium",
-        "desktop_image_width": "medium",
-        "image_layout": "alternate-left",
-        "heading_size": "h1",
-        "text_style": "body",
-        "button_style": "secondary",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "mobile_content_alignment": "left",
-        "section_color_scheme": "scheme-2",
-        "row_color_scheme": "scheme-2",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
@@ -436,10 +238,10 @@
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "columns_desktop": 4,
+        "columns_desktop": 6,
         "enable_desktop_slider": true,
         "full_width": false,
-        "show_view_all": true,
+        "show_view_all": false,
         "view_all_style": "solid",
         "color_scheme": "scheme-2",
         "image_ratio": "square",
@@ -453,53 +255,6 @@
         "padding_top": 44,
         "padding_bottom": 36
       }
-    },
-    "image_with_text_9cimky": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_cnUD7g": {
-          "type": "heading",
-          "settings": {
-            "heading": "Detailed Exposition of Men's Fashion.",
-            "heading_size": "h2"
-          }
-        },
-        "text_K4riwj": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Precise and factual description of a high-end men's fashion brand offering tank tops, t-shirts, long sleeve shirts, and boxers</p>",
-            "text_style": "body"
-          }
-        },
-        "button_9L7Cff": {
-          "type": "button",
-          "settings": {
-            "button_label": "Our History",
-            "button_link": "shopify://pages/about-us",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_cnUD7g",
-        "text_K4riwj",
-        "button_9L7Cff"
-      ],
-      "name": "t:sections.image-with-text.presets.name",
-      "settings": {
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "image_behavior": "none",
-        "content_layout": "no-overlap",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "center",
-        "mobile_content_alignment": "center",
-        "section_color_scheme": "scheme-2",
-        "color_scheme": "scheme-2",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -508,13 +263,7 @@
     "image_banner_Pp9GFy",
     "featured_collection_BWt7mh",
     "featured_collection_7h8mVH",
-    "image_banner_zVPrKh",
-    "image_banner_eQwTnG",
-    "image_banner_fmaFA7",
     "collage_JLrWay",
-    "multirow_Xz8Td7",
-    "multirow_tLhF3D",
-    "featured_collection",
-    "image_with_text_9cimky"
+    "featured_collection"
   ]
 }
