@@ -36,7 +36,7 @@
         "buttons_M7ikBi"
       ],
       "settings": {
-        "image": "shopify://shop_images/V.png",
+        "image": "shopify://shop_images/V.webp",
         "image_overlay_opacity": 0,
         "image_height": "large",
         "image_behavior": "none",
@@ -76,7 +76,8 @@
         "button"
       ],
       "settings": {
-        "image": "shopify://shop_images/I.jpg",
+        "image": "shopify://shop_images/XI.webp",
+        "image_2": "shopify://shop_images/XII.png",
         "image_overlay_opacity": 0,
         "image_height": "large",
         "image_behavior": "none",
@@ -116,7 +117,7 @@
         "buttons_EygDMH"
       ],
       "settings": {
-        "image": "shopify://shop_images/IV.jpg",
+        "image": "shopify://shop_images/CF_FV.jpg",
         "image_overlay_opacity": 0,
         "image_height": "large",
         "image_behavior": "none",
@@ -133,7 +134,7 @@
       "type": "featured-collection",
       "name": "t:sections.featured-collection.presets.name",
       "settings": {
-        "collection": "shop",
+        "collection": "mens-calecon",
         "products_to_show": 6,
         "title": "Featured Product",
         "heading_size": "h1",
@@ -215,7 +216,6 @@
       ],
       "settings": {
         "image": "shopify://shop_images/III.jpg",
-        "image_2": "shopify://shop_images/III.png",
         "image_overlay_opacity": 0,
         "image_height": "large",
         "image_behavior": "none",
@@ -296,8 +296,6 @@
         "buttons_Q4M8nM"
       ],
       "settings": {
-        "image": "shopify://shop_images/V.png",
-        "image_2": "shopify://shop_images/VII.png",
         "image_overlay_opacity": 0,
         "image_height": "large",
         "image_behavior": "none",
@@ -356,7 +354,6 @@
         "row_qVXFV3": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/II.jpg",
             "caption": "Long Sleeve Shirt",
             "heading": "Long Sleeve Shirts: Comfort Guaranteed",
             "text": "<p>This shirt prioritizes men's underwear comfort, featuring a sleek fit and full coverage. Crafted from premium materials, it guarantees long-lasting wear.</p>",
@@ -367,7 +364,6 @@
         "row_AiDqpY": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/IV.png",
             "caption": "Tank top",
             "heading": "Upgrade to Premium Comfort and Style",
             "text": "<p>Experience Comfort and Style in Every Outfit with Our Premium Men's Tank Top. Discover the perfect blend of comfort and style with our premium men's tank top, a must-have for your wardrobe.</p>",
@@ -491,7 +487,6 @@
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
-        "image": "shopify://shop_images/VII.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
