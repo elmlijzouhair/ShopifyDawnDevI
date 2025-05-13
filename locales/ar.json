@@ -2904,6 +2904,9 @@
         "title": "خطأ",
         "description": "قم بتحديث هذه الصفحة أو حاول مرة أخرى بعد بضع دقائق.",
         "refresh_button": "تحديث الصفحة"
+      },
+      "resend_link": {
+        "generic": "فشل الطلب"
       }
     },
     "throttle": {
@@ -3045,6 +3048,11 @@
           "credit_card_number_invalid": "أدخل رقم بطاقة صالحًا",
           "credit_card_expiry_invalid": "أدخل تاريخ انتهاء صلاحية البطاقة الصحيح",
           "credit_card_verification_value_blank": "أدخل رمز CVV أو رمز الأمان الموجود على بطاقتك"
+        },
+        "unavailable": {
+          "text": "لا تتوفر إمكانية الدفع ببطاقات الائتمان والخصم في الوقت الحالي.",
+          "link_text": "تحديث هذه الصفحة",
+          "suffix": "أو حاول مرة أخرى لاحقًا."
         }
       },
       "payment_delete": {
@@ -3082,6 +3090,9 @@
           "missing_billing_address_error_message": "الرجاء تحديد عنوان الفاتورة",
           "default_checkbox": "تعيين كطريقة دفع افتراضية"
         }
+      },
+      "three_d_secure": {
+        "title": "3D Secure"
       }
     },
     "order_details": {
@@ -3280,11 +3291,17 @@
           "six_and_more_products_accessibility_label": "يتضمن الطلب الكمية {{lineItemName1}} {{lineItemQuantity1}} ، الكمية { {{lineItemName2}} { {{lineItemQuantity2}} ، الكمية { {{lineItemName3}} { {{lineItemQuantity3}} ، الكمية { {{lineItemName4}} { {{lineItemQuantity4}} ، الكمية {{ {{lineItemName5}} {{lineItemQuantity5}} ، الكمية { {{lineItemName6}} {{lineItemQuantity6}} والمزيد",
           "view_order_details": "عرض تفاصيل الطلب",
           "previous": "سابق",
-          "next": "التالي"
+          "next": "التالي",
+          "one_products_accessibility_label": "يتضمن الطلب كمية قدرها {{lineItemQuantity1}} {{lineItemName1}}",
+          "two_products_accessibility_label": "يتضمن الطلب كمية قدرها {{lineItemQuantity1}} {{lineItemName1}} ، وكمية قدرها {{lineItemQuantity2}} {{lineItemName2}}",
+          "three_products_accessibility_label": "يتضمن الطلب كمية قدرها {{lineItemQuantity1}} {{lineItemName1}} ، وكمية قدرها {{lineItemQuantity2}} {{lineItemName2}} ، وكمية قدرها {{lineItemQuantity3}} {{lineItemName3}}",
+          "four_products_accessibility_label": "يتضمن الطلب كمية قدرها {{lineItemQuantity1}} {{lineItemName1}} ، وكمية قدرها {{lineItemQuantity2}} {{lineItemName2}} ، وكمية قدرها {{lineItemQuantity3}} {{lineItemName3}} ، وكمية قدرها {{lineItemQuantity4}} {{lineItemName4}}",
+          "five_products_accessibility_label": "يتضمن الطلب كمية قدرها {{lineItemQuantity1}} {{lineItemName1}} ، وكمية قدرها {{lineItemQuantity2}} {{lineItemName2}} ، وكمية قدرها {{lineItemQuantity3}} {{lineItemName3}} ، وكمية قدرها {{lineItemQuantity4}} {{lineItemName4}} ، وكمية قدرها {{lineItemQuantity5}} {{lineItemName5}}"
         },
         "items": {
           "one": "{{count}} عنصر",
-          "other": "{{count}} عناصر"
+          "other": "{{count}} عناصر",
+          "many": "{{count}} مقالة"
         },
         "list_view": "إظهار عرض القائمة",
         "no_filtered_results_description": "قم بإزالة أو تعديل المرشحات لرؤية طلباتك",
@@ -3373,7 +3390,35 @@
           }
         },
         "table_view": "إظهار عرض الجدول",
-        "show_order_actions_accessibility_label": "إظهار إجراءات الطلب للطلب {{name}}"
+        "show_order_actions_accessibility_label": "إظهار إجراءات الطلب للطلب {{name}}",
+        "column_headers": {
+          "total": "المجموع",
+          "items": "أغراض",
+          "order": "طلب",
+          "actions_accessibility_label": "الإجراءات",
+          "products_accessibility_label": "منتجات"
+        },
+        "delivered": "تم التسليم في {{date}}",
+        "empty_state_order_source_description": "ستظهر هنا فقط الطلبات المقدمة بواسطة {{email}}",
+        "empty_state_subtitle": "اذهب إلى المتجر لتقديم الطلب.",
+        "empty_state_title": "لا توجد طلبات حتى الآن",
+        "estimated_delivery": "من المقرر أن يتم في {{date}}",
+        "one_images_accessibility_label": "يتضمن الطلب {{lineItemName1}}",
+        "two_images_accessibility_label": "يتضمن الطلب {{lineItemName1}} و {{lineItemName2}}",
+        "three_images_accessibility_label": "يتضمن الطلب {{lineItemName1}} و {{lineItemName2}} و {{lineItemName3}}",
+        "four_images_accessibility_label": "يتضمن الطلب {{lineItemName1}} و {{lineItemName2}} و {{lineItemName3}} و {{lineItemName4}}",
+        "estimated_shortform": "تم تقديره في {{date}}",
+        "empty_state_title_for_pending_orders": "الطلبات المعلقة",
+        "more_than_four_products_accessibility_label": "يتضمن الطلب {{lineItemName1}} و {{lineItemName2}} و {{lineItemName3}} و {{numberOfAdditionalProducts}} منتجًا آخر",
+        "plus_more_products": "+ {{numberOfAdditionalProducts}} منتج",
+        "more_than_three_products_accessibility_label": "يتضمن الطلب {{lineItemName1}} و {{lineItemName2}} و {{numberOfAdditionalProducts}} منتجًا آخر",
+        "plus_more": "+ {{numberOfAdditionalProducts}}",
+        "no_order_banner": "لاختبار الامتداد الخاص بك على صفحة حالة الطلب، قم بإنشاء طلب.",
+        "location_filter_picker": {
+          "all_location": "جميع المواقع",
+          "current_location": "الموقع الحالي",
+          "switch_view": "تغيير العرض"
+        }
       },
       "order_status": {
         "attempted_delivery_label": "محاولة التسليم",
@@ -3409,21 +3454,142 @@
         },
         "delivered_description_gift_card": {
           "one": "تم إرسال بطاقة الهدية عبر البريد الإلكتروني.",
-          "other": "تم إرسال بطاقات الهدايا عبر البريد الإلكتروني."
+          "other": "تم إرسال بطاقات الهدايا عبر البريد الإلكتروني.",
+          "many": "تم إرسال بطاقات الهدايا عبر البريد الإلكتروني."
         },
         "delivered_description_gift_card_text": {
           "one": "تم إرسال بطاقة الهدية برسالة نصية.",
-          "other": "تم إرسال بطاقات الهدايا عن طريق الرسائل النصية."
+          "other": "تم إرسال بطاقات الهدايا عن طريق الرسائل النصية.",
+          "many": "تم إرسال بطاقات الهدايا عبر الرسائل القصيرة."
+        },
+        "estimated_delivery": "من المقرر أن يتم في {{date}}",
+        "in_review_description": "سوف نتصل بك إذا كنا بحاجة إلى معلومات إضافية أو عندما يتم تأكيد طلبك.",
+        "in_review_label": "قيد المراجعة",
+        "in_review_title": "طلبك قيد المراجعة",
+        "no_tracking_number": "لا يوجد رقم تتبع لهذه الشحنة.",
+        "on_its_way_label": "في مرحلة انتقالية",
+        "on_its_way_title": "طلبك قيد النقل",
+        "out_for_delivery_label": "في عملية التسليم",
+        "out_for_delivery_title": "يتم تسليم طلبك",
+        "resume_tracking": "تتبع السيرة الذاتية",
+        "submitted_label": "مُقَدَّم",
+        "track_shipment": "تتبع الشحنة",
+        "request_return": "طلب الإرجاع",
+        "submitted_description": "التحقق من تفاصيل الطلب والدفع.",
+        "last_updated": "آخر تحديث في {{date}}",
+        "multiple_shipments_label": "شحنات متعددة",
+        "view_order_for_details": "قم بعرض الطلب لرؤية التفاصيل",
+        "gift_card_label": {
+          "one": "بطاقة هدية",
+          "other": "بطاقات الهدايا",
+          "many": "بطاقات الهدايا"
+        },
+        "confirmed_gift_card_additional_description": {
+          "one": "سيتم إرسال بطاقة الهدية في بريد إلكتروني منفصل.",
+          "other": "سيتم إرسال كل بطاقة هدية في بريد إلكتروني منفصل.",
+          "many": "سيتم إرسال كل بطاقة هدية في بريد إلكتروني منفصل."
+        },
+        "confirmed_gift_card_additional_description_text": {
+          "one": "سيتم إرسال بطاقة الهدية في رسالة نصية قصيرة منفصلة."
         }
       },
-      "list_title": "طلبات"
+      "list_title": "طلبات",
+      "list_layout_accessibility_label": "خيارات التخطيط"
     },
     "navigation_and_structure": {
       "orders_link_label": "طلبات",
-      "search": "يبحث"
+      "search": "يبحث",
+      "close_menu_accessibility_label": "إغلاق القائمة الرئيسية",
+      "contact_email_subject": "بيانات الاتصال للمتجر الإلكتروني {{shopName}}",
+      "contact_link": "بيانات الاتصال",
+      "delete_confirmation": {
+        "cancel": "يلغي",
+        "delete": "يمسح"
+      },
+      "dismiss_toast": "رفض",
+      "document_title": "{{sectionName}} – {{shopName}} – الحساب",
+      "go_to_store_link": "الوصول إلى المتجر",
+      "loading_message": "جاري التحميل",
+      "log_out_link": "تسجيل الخروج",
+      "logout_overlay_label": "قطع الاتصال...",
+      "nav_label_accessibility_label": "القائمة الرئيسية",
+      "navigation_accessibility_message": "لقد قمت بالوصول إلى {{sectionName}}",
+      "open_menu_accessibility_label": "افتح القائمة الرئيسية",
+      "shop_logo_accessibility_label": "الشعار {{shopName}}",
+      "subscriptions_link_label": "الاشتراكات",
+      "settings_link": "إعدادات",
+      "country_switcher_toast_message": "تم إكمال تغيير البلد: {{countryName}}",
+      "switch_country": "تغيير البلد",
+      "location_switcher_toast_message": "تم تغيير الموقع إلى {{locationName}}",
+      "switch_location": "تغيير الموقع",
+      "view_details": "انظر التفاصيل",
+      "company_location": "موقع الشركة"
     },
     "ui_components": {
-      "expandNotification": "عرض المزيد"
+      "expandNotification": "عرض المزيد",
+      "closeNotification": "يغلق",
+      "closeModal": "يغلق",
+      "submit": "يُقدِّم",
+      "processing": "جاري المعالجة حاليا...",
+      "increase": "زيادة {{type}}",
+      "decrease": "انخفاض {{type}}",
+      "minimumReached": "تم الوصول إلى الحد الأدنى من {{value}}",
+      "maximumReached": "تم الوصول إلى الحد الأقصى لـ {{value}}",
+      "january": "يناير",
+      "february": "فبراير",
+      "march": "يمشي",
+      "april": "أبريل",
+      "may": "يمكن",
+      "june": "يونيو",
+      "july": "يوليو",
+      "august": "أغسطس",
+      "september": "سبتمبر",
+      "october": "أكتوبر",
+      "november": "نوفمبر",
+      "december": "ديسمبر",
+      "monday": "الاثنين",
+      "tuesday": "يوم الثلاثاء",
+      "wednesday": "الأربعاء",
+      "thursday": "يوم الخميس",
+      "friday": "جمعة",
+      "saturday": "السبت",
+      "sunday": "الأحد",
+      "mondayAbbreviation": "الاثنين",
+      "tuesdayAbbreviation": "مارس",
+      "wednesdayAbbreviation": "بحر",
+      "thursdayAbbreviation": "لعبة",
+      "fridayAbbreviation": "الجمعة",
+      "saturdayAbbreviation": "قعد",
+      "sundayAbbreviation": "شمس",
+      "showNextMonth": "عرض الشهر القادم، {{month}} {{year}}",
+      "showPreviousMonth": "إظهار الشهر السابق، {{month}} {{year}}",
+      "rangeStart": "بداية الفترة",
+      "inRange": "في الفترة",
+      "rangeEnd": "نهاية الفترة",
+      "autocompleteOptionsAvailable": {
+        "one": "{{count}} عنصر متاح",
+        "other": "{{count}} عناصر متاحة",
+        "many": "{{count}} عناصر متاحة"
+      },
+      "removeItem": "حذف {{label}}",
+      "removeTag": "حذف العلامة",
+      "month": {
+        "one": "شهر",
+        "other": "شهر",
+        "many": "شهر"
+      },
+      "mapClusterTitle": {
+        "one": "مجموعة من {{number}} علامة",
+        "other": "مجموعة من {{number}} علامة",
+        "many": "مجموعة من {{number}} علامة"
+      },
+      "expandSheet": "تكبير",
+      "qrCode": "رمز الاستجابة السريعة",
+      "addFile": "إضافة ملف",
+      "dropzoneInvalidFileType": "نوع الملف غير مدعوم",
+      "dropzoneDraggedOver": "إسقاط الملف للاستيراد",
+      "clipboardCopied": "ينسخ",
+      "clipboardFailedToCopy": "غير قادر على النسخ"
     },
     "addresses": {
       "add_button": "إضافة عنوان",
@@ -3490,6 +3656,90 @@
       "save_accessibility_label": "حفظ العنوان {{address}}",
       "section_title_accessibility_label": "إضافة عنوان",
       "update_success_notification": "تم تحديث العنوان"
+    },
+    "shop_policies": {
+      "legal_notice": "الإشعارات القانونية",
+      "privacy_policy": "سياسة الخصوصية",
+      "refund_policy": "سياسة الاسترداد",
+      "shipping_policy": "سياسة الشحن",
+      "subscription_policy": "سياسة الإنهاء",
+      "terms_of_sale": "الشروط العامة للبيع",
+      "terms_of_service": "شروط الخدمة"
+    },
+    "enable_javascript": "لعرض حسابك، قم بتمكين JavaScript في إعدادات المتصفح الخاص بك أو قم بتسجيل الدخول باستخدام متصفح مختلف.",
+    "profile_preview_bar": {
+      "customize_button": "تخصيص",
+      "hide_bar": "إخفاء الشريط",
+      "navigate_to_admin": "الوصول إلى واجهة المسؤول",
+      "previewing": "أنت تشاهد حاليًا معاينة لـ:",
+      "saved_at": "تم التسجيل في {{date}} في {{time}}",
+      "viewing": "أنت تشاهد حالياً:",
+      "not_available": "بيانات الملف الشخصي غير متوفرة",
+      "close_preview": "إغلاق المعاينة",
+      "actions_button": "الإجراءات"
+    },
+    "settings": {
+      "title": "إعدادات",
+      "log_out_everywhere": {
+        "title": "انفصل في كل مكان",
+        "description": "إذا فقدت جهازًا أو كانت لديك مخاوف أمنية، فقم بتسجيل الخروج من كل مكان للحفاظ على أمان حسابك.",
+        "button": "انفصل في كل مكان",
+        "warning_message": "سيتم تسجيل خروجك على هذا الجهاز أيضًا."
+      },
+      "loading_accessibility_message": "تحميل صفحة الإعدادات"
+    },
+    "date": {
+      "humanize": {
+        "lessThanOneMinuteAgo": "الآن",
+        "yesterday": "أمس في {{time}}",
+        "today": "اليوم في {{time}}",
+        "tomorrow": "غدا في {{time}}",
+        "lessThanOneHourAgo": {
+          "one": "{{count}} دقيقة",
+          "other": "{{count}} دقيقة",
+          "many": "{{count}} دقيقة"
+        }
+      }
+    },
+    "active_inspector": {
+      "extension": {
+        "select": "حدد الامتداد المسمى {{extensionName}}",
+        "unselect": "قم بإلغاء تحديد الامتداد المسمى {{extensionName}}",
+        "move_down": "نقل الامتداد إلى الموضع التالي",
+        "move_up": "نقل الامتداد إلى الموضع السابق",
+        "remove": "إزالة الامتداد",
+        "move_down_tooltip": "وضع أقل",
+        "move_up_tooltip": "وضع أعلى",
+        "remove_tooltip": "يمسح"
+      }
+    },
+    "account_information": {
+      "loading_accessibility_message": "جاري تحميل معلومات الحساب",
+      "loading_finished_accessibility_message": "تم تحميل معلومات الحساب",
+      "profile_card": {
+        "cancel": "يلغي",
+        "cancel_accessibility_label": "إلغاء تعديل الملف الشخصي",
+        "edit": "لتعديل",
+        "edit_accessibility_label": "تعديل الملف الشخصي",
+        "email_help_text": "لا يمكن تغيير عنوان البريد الإلكتروني المستخدم لتسجيل الدخول",
+        "first_name": "الاسم الأول",
+        "last_name": "اسم",
+        "phone_number_help_text": "لا يمكن تغيير رقم الهاتف المستخدم لتسجيل الدخول",
+        "save": "يحفظ",
+        "save_accessibility_label": "حفظ الملف الشخصي",
+        "title": "حساب تعريفي",
+        "no_name_provided_accessibility_label": "لم تتم إضافة أي أسماء"
+      },
+      "profile_update_confirmation_message": "تم تحديث الملف الشخصي",
+      "title": "حساب تعريفي",
+      "people": {
+        "pagination": {
+          "load_more": "تحميل المزيد",
+          "load_more_accessibility_label": "تحميل المزيد من الأشخاص",
+          "loading_accessibility_label": "تحميل الأشخاص"
+        }
+      },
+      "add_button": "يضيف"
     }
   },
   "customer": {
