@@ -117,7 +117,8 @@
         "buttons_EygDMH"
       ],
       "settings": {
-        "image": "shopify://shop_images/CF_FV.jpg",
+        "image": "shopify://shop_images/CFI.png",
+        "image_2": "shopify://shop_images/ARI.png",
         "image_overlay_opacity": 0,
         "image_height": "large",
         "image_behavior": "none",
@@ -136,7 +137,7 @@
       "settings": {
         "collection": "mens-calecon",
         "products_to_show": 6,
-        "title": "Nos sous-vêtements phares",
+        "title": "Featured Product",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
@@ -154,7 +155,7 @@
         "show_rating": false,
         "quick_add": "none",
         "columns_mobile": "2",
-        "swipe_on_mobile": false,
+        "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -164,13 +165,13 @@
       "name": "t:sections.featured-collection.presets.name",
       "settings": {
         "collection": "packs",
-        "products_to_show": 25,
-        "title": "Découvrir nos généreux packs",
+        "products_to_show": 6,
+        "title": "Featured Packs",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "columns_desktop": 4,
+        "columns_desktop": 6,
         "enable_desktop_slider": false,
         "full_width": false,
         "show_view_all": true,
@@ -183,7 +184,7 @@
         "show_rating": false,
         "quick_add": "none",
         "columns_mobile": "2",
-        "swipe_on_mobile": false,
+        "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -200,14 +201,14 @@
         "product_fcHUG3": {
           "type": "product",
           "settings": {
-            "product": "t-shirt",
+            "product": "mens-boxer-shorts-arno",
             "second_image": false
           }
         },
         "collection_cNfeVJ": {
           "type": "collection",
           "settings": {
-            "collection": "packs"
+            "collection": "mens-calecon"
           }
         }
       },
@@ -251,7 +252,7 @@
         "show_rating": false,
         "quick_add": "none",
         "columns_mobile": "2",
-        "swipe_on_mobile": true,
+        "swipe_on_mobile": false,
         "padding_top": 44,
         "padding_bottom": 36
       }
