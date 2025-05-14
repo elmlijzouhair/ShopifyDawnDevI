@@ -33,6 +33,11 @@
           "settings": {
             "heading": "Shirt à manches longues pour homme de qualité supérieure, sans aucun prix."
           }
+        },
+        "button": {
+          "settings": {
+            "button_label_1": "Découvrez tout"
+          }
         }
       }
     },
