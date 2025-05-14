@@ -103,8 +103,8 @@
         "buttons_EygDMH": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify://products/t-shirt",
+            "button_label_1": "Discover all",
+            "button_link_1": "shopify://collections/mens-calecon",
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
@@ -195,7 +195,7 @@
         "image_LJm3mn": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/XII.png"
+            "image": "shopify://shop_images/ProI.png"
           }
         },
         "product_fcHUG3": {
