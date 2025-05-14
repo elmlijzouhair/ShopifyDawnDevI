@@ -1,0 +1,74 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "parent": "index.json",
+  "context": {
+    "market": "ma"
+  },
+  "sections": {
+    "image_banner_ynTN6p": {
+      "blocks": {
+        "heading_krnpPa": {
+          "settings": {
+            "heading": "La qualité et le savoir-faire artisanal façonnent notre identité."
+          }
+        },
+        "buttons_M7ikBi": {
+          "settings": {
+            "button_label_1": "Découvrez tout"
+          }
+        }
+      }
+    },
+    "image_banner": {
+      "blocks": {
+        "heading": {
+          "settings": {
+            "heading": "Shirt à manches longues pour homme de qualité supérieure, sans aucun prix."
+          }
+        }
+      }
+    },
+    "image_banner_Pp9GFy": {
+      "blocks": {
+        "heading_FHfqdQ": {
+          "settings": {
+            "heading": "Haut de sous-vêtements pour hommes"
+          }
+        },
+        "buttons_EygDMH": {
+          "settings": {
+            "button_label_1": "Découvrez tout"
+          }
+        }
+      }
+    },
+    "featured_collection_BWt7mh": {
+      "settings": {
+        "title": "produit phare"
+      }
+    },
+    "featured_collection_7h8mVH": {
+      "settings": {
+        "title": "Packs phare"
+      }
+    },
+    "collage_JLrWay": {
+      "settings": {
+        "heading": "T-shirt de montage multimédia diversifié"
+      }
+    },
+    "featured_collection": {
+      "settings": {
+        "title": "Améliorez votre style avec NudraStore."
+      }
+    }
+  }
+}
