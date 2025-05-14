@@ -321,6 +321,25 @@ p.announcement-bar__message.h5 {
         document.documentElement.classList.add('shopify-design-mode');
       }
     </script>
+    <style>
+.shopify-payment-button .shopify-payment-button__button--unbranded {
+    position: relative;
+}
+.shopify-payment-button .shopify-payment-button__button--unbranded:after {
+    content: "Hit That Like Button";
+    background: inherit;
+    font-size: inherit;
+    color: inherit;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+</style>
   </head>
 
   <body class="gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %}">
