@@ -440,5 +440,50 @@ margin-top: 20px;
 
  
 {% endif %}
+<style>
+.button,.shopify-payment-button__button { 
+
+background-color: black !important; 
+color: white !important; 
+box-shadow: none; 
+position: relative; 
+z-index: 1; 
+overflow: hidden; 
+
+}  
+.button::before,
+.button::after,
+.button::hover, .shopify-payment-button__button::before, .shopify-payment-button__button::after, .shopify-payment-button__button::hover {
+box-shadow: none !important; 
+}  
+.button:hover, .shopify-payment-button__button:hover { 
+transform: none !important; transition: none !important; 
+}  
+
+@keyframes shine { 
+to {
+left: 100%; 
+}
+}  
+#MainContent .button::after, .shopify-payment-button__button::after { 
+z-index: -1 !important; 
+position: absolute; 
+top: 0 !important; 
+left: -100%; 
+width: 100% !important; 
+height: 100% !important; 
+transform: skew(-15deg) !important; 
+--border-opacity: none; 
+background-image: linear-gradient( 
+90deg, 
+transparent, 
+rgba(255, 255, 255, 0.25), 
+transparent 
+) !important; 
+}  
+.button:hover::after, .shopify-payment-button__button:hover::after {
+animation: shine 1s ease; 
+}
+</style>
   </body>
 </html>
