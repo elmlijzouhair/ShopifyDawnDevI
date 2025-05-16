@@ -33,6 +33,11 @@
           "settings": {
             "button_label_1": "Découvrez tout"
           }
+        },
+        "heading": {
+          "settings": {
+            "heading": "T-Shirts pour homme de qualité supérieure, sans aucun prix."
+          }
         }
       }
     },
@@ -62,7 +67,7 @@
     },
     "collage_JLrWay": {
       "settings": {
-        "heading": "T-shirt de montage multimédia diversifié"
+        "heading": "Sous-vêtements de qualité supérieure"
       }
     },
     "featured_collection": {
