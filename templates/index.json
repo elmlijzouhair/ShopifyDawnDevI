@@ -49,6 +49,47 @@
         "show_text_below": false
       }
     },
+    "collection_list_pUfrEC": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_g8kdWU": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "mens-calecon"
+          }
+        },
+        "featured_collection_LakJic": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "t-shirt"
+          }
+        },
+        "featured_collection_WLX3pa": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "tank-top"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_g8kdWU",
+        "featured_collection_LakJic",
+        "featured_collection_WLX3pa"
+      ],
+      "name": "t:sections.collection-list.presets.name",
+      "settings": {
+        "title": "Collections",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {
@@ -262,6 +303,7 @@
   },
   "order": [
     "image_banner_ynTN6p",
+    "collection_list_pUfrEC",
     "image_banner",
     "image_banner_Pp9GFy",
     "featured_collection_BWt7mh",
