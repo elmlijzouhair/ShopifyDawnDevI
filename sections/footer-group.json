@@ -14,6 +14,12 @@
     "footer": {
       "type": "footer",
       "blocks": {
+        "brand_information_8NTYNB": {
+          "type": "brand_information",
+          "settings": {
+            "show_social": true
+          }
+        },
         "link_list_Jprm9n": {
           "type": "link_list",
           "settings": {
@@ -21,16 +27,18 @@
             "menu": "footer"
           }
         },
-        "brand_information_8NTYNB": {
-          "type": "brand_information",
+        "link_list_AtzriN": {
+          "type": "link_list",
           "settings": {
-            "show_social": true
+            "heading": "Liens rapides",
+            "menu": "contact"
           }
         }
       },
       "block_order": [
+        "brand_information_8NTYNB",
         "link_list_Jprm9n",
-        "brand_information_8NTYNB"
+        "link_list_AtzriN"
       ],
       "settings": {
         "color_scheme": "scheme-2",
