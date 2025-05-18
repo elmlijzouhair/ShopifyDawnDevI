@@ -38,9 +38,12 @@
           "type": "quantity_selector",
           "settings": {}
         },
-        "description": {
-          "type": "description",
-          "settings": {}
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
         },
         "custom_liquid_tC4RdU": {
           "type": "custom_liquid",
@@ -48,12 +51,9 @@
             "custom_liquid": "{% capture product_url %}{{ shop.url }}{{ product.url }}{% endcapture %}\n{% capture product_name %}{{ product.title | url_escape }}{% endcapture %}\n<a href=\"https://wa.me/212774544190?text={{ product_name }}%20{{ product_url }}\" class=\"btn btn--buy-on-whatsapp\" target=\"_blank\">Commander sur WhatsApp</a>"
           }
         },
-        "buy_buttons": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": true,
-            "show_gift_card_recipient": true
-          }
+        "description": {
+          "type": "description",
+          "settings": {}
         }
       },
       "block_order": [
@@ -62,17 +62,17 @@
         "price",
         "variant_picker",
         "quantity_selector",
-        "description",
+        "buy_buttons",
         "custom_liquid_tC4RdU",
-        "buy_buttons"
+        "description"
       ],
       "settings": {
         "enable_sticky_info": true,
         "color_scheme": "scheme-2",
-        "media_size": "small",
+        "media_size": "medium",
         "constrain_to_viewport": true,
         "media_fit": "cover",
-        "gallery_layout": "stacked",
+        "gallery_layout": "thumbnail_slider",
         "mobile_thumbnails": "show",
         "media_position": "left",
         "image_zoom": "none",
