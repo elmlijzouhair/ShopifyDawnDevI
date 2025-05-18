@@ -1,0 +1,29 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "parent": "footer-group.json",
+  "context": {
+    "market": "ma"
+  },
+  "sections": {
+    "footer": {
+      "settings": {
+        "newsletter_heading": "Améliorez vos basiques avec des sous-vêtements luxueux et durables."
+      },
+      "blocks": {
+        "text_gjYDM8": {
+          "settings": {
+            "subtext": "<p>Tel : <a href=\"tel:0774544190\" title=\"tel:0774544190\"><span style=\"text-decoration:underline\">07 74 54 41 90<br/></span></a>Mail : nudrastore.contact@gmail.com<br/>Adresse : Centre ville Settat Maroc</p>"
+          }
+        }
+      }
+    }
+  }
+}
