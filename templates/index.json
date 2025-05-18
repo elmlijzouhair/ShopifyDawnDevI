@@ -75,6 +75,7 @@
         "heading",
         "button"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/XI.webp",
         "image_2": "shopify://shop_images/XII.png",
@@ -116,6 +117,7 @@
         "heading_FHfqdQ",
         "buttons_EygDMH"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/CFI.png",
         "image_2": "shopify://shop_images/ARI.png",
