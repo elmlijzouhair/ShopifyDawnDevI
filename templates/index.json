@@ -107,7 +107,7 @@
       ],
       "name": "t:sections.collection-list.presets.name",
       "settings": {
-        "title": "Elevate Your Style with NudraStore.",
+        "title": "",
         "heading_size": "h1",
         "image_ratio": "portrait",
         "columns_desktop": 3,
