@@ -20,18 +20,25 @@
             "heading": "NudraStore",
             "menu": "footer"
           }
+        },
+        "brand_information_8NTYNB": {
+          "type": "brand_information",
+          "settings": {
+            "show_social": true
+          }
         }
       },
       "block_order": [
-        "link_list_Jprm9n"
+        "link_list_Jprm9n",
+        "brand_information_8NTYNB"
       ],
       "settings": {
         "color_scheme": "scheme-2",
         "newsletter_enable": false,
         "newsletter_heading": "Upgrade Your Basics with Luxurious and Durable Undergarments.",
         "enable_follow_on_shop": true,
-        "show_social": true,
-        "enable_country_selector": true,
+        "show_social": false,
+        "enable_country_selector": false,
         "enable_language_selector": false,
         "payment_enable": false,
         "show_policy": false,
