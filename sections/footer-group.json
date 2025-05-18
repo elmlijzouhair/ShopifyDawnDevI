@@ -27,18 +27,18 @@
             "menu": "footer"
           }
         },
-        "link_list_AtzriN": {
-          "type": "link_list",
+        "text_gjYDM8": {
+          "type": "text",
           "settings": {
             "heading": "Contact",
-            "menu": "contact"
+            "subtext": "<p>Tel : <a href=\"tel:00000000\" title=\"tel:00000000\">00000000000<br/></a>Mail : nudrastore.contact@gmail.com<br/>Adresse : City Center Settat</p>"
           }
         }
       },
       "block_order": [
         "brand_information_8NTYNB",
         "link_list_Jprm9n",
-        "link_list_AtzriN"
+        "text_gjYDM8"
       ],
       "settings": {
         "color_scheme": "scheme-2",
