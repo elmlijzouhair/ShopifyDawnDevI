@@ -119,6 +119,114 @@
         "padding_bottom": 36
       }
     },
+    "featured_collection_7h8mVH": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "collection": "mens-calecon",
+        "products_to_show": 4,
+        "title": "Featured Packs",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "columns_desktop": 4,
+        "enable_desktop_slider": false,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "color_scheme": "scheme-2",
+        "image_ratio": "portrait",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_j6TyF7": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_XBtYDF": {
+          "type": "heading",
+          "settings": {
+            "heading": "Parler de sa marque",
+            "heading_size": "h1"
+          }
+        },
+        "text_mGNbAg": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Partagez des informations sur votre marque. Décrivez un produit, partagez des annonces ou souhaitez la bienvenue à vos clients dans votre boutique.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_XBtYDF",
+        "text_mGNbAg"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "image_with_text_Fr88mR": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_rdKPjr": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image avec texte",
+            "heading_size": "h1"
+          }
+        },
+        "text_UaPkGG": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Associez un texte à une image pour mettre en avant le produit, la collection ou l’article de blog de votre choix. Ajoutez des informations sur la disponibilité ou le style. Vous pouvez même fournir un avis.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_GVTJYr": {
+          "type": "button",
+          "settings": {
+            "button_label": "Texte du bouton",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_rdKPjr",
+        "text_UaPkGG",
+        "button_GVTJYr"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/about2.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-2",
+        "color_scheme": "scheme-2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {
@@ -203,35 +311,6 @@
         "show_text_below": false
       }
     },
-    "featured_collection_7h8mVH": {
-      "type": "featured-collection",
-      "name": "t:sections.featured-collection.presets.name",
-      "settings": {
-        "collection": "mens-calecon",
-        "products_to_show": 4,
-        "title": "Featured Packs",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "columns_desktop": 4,
-        "enable_desktop_slider": false,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "color_scheme": "scheme-2",
-        "image_ratio": "portrait",
-        "image_shape": "default",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "none",
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "collage_JLrWay": {
       "type": "collage",
       "blocks": {
@@ -260,6 +339,7 @@
         "product_fcHUG3",
         "collection_cNfeVJ"
       ],
+      "disabled": true,
       "name": "t:sections.collage.presets.name",
       "settings": {
         "heading": "Male Boxer Calecon",
@@ -274,6 +354,7 @@
     },
     "featured_collection": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "collection": "all",
         "products_to_show": 10,
@@ -305,9 +386,11 @@
     "image_banner_ynTN6p",
     "featured_collection_BWt7mh",
     "collection_list_pUfrEC",
+    "featured_collection_7h8mVH",
+    "rich_text_j6TyF7",
+    "image_with_text_Fr88mR",
     "image_banner",
     "image_banner_Pp9GFy",
-    "featured_collection_7h8mVH",
     "collage_JLrWay",
     "featured_collection"
   ]
