@@ -8,9 +8,19 @@
  * ------------------------------------------------------------
  */
 {
-  "markets": {
-    "ma": {
-      "parent": "@default"
+  "parent": "article.json",
+  "context": {
+    "market": "ma"
+  },
+  "sections": {
+    "main": {
+      "blocks": {
+        "share": {
+          "settings": {
+            "share_label": "Partager"
+          }
+        }
+      }
     }
   }
 }
