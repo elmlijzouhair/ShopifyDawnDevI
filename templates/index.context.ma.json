@@ -74,6 +74,15 @@
       "settings": {
         "title": "Améliorez votre style avec NudraStore."
       }
+    },
+    "rich_text_j6TyF7": {
+      "blocks": {
+        "heading_XBtYDF": {
+          "settings": {
+            "heading": "A Propos NudraStore"
+          }
+        }
+      }
     }
   }
 }
