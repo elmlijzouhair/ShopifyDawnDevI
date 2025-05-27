@@ -3639,3 +3639,8 @@ details-disclosure > details {
     transform: translateX(100%) scaleX(0);
   }
 }
+@media screen and (min-width: 760px){
+    .header {
+    padding: 1px 2rem 1px 2rem !important;
+}
+}
